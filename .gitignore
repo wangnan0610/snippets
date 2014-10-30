@@ -1,1 +1,4 @@
 *.log
+bourbon/
+bower_components/
+node_modules/
