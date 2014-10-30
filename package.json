@@ -1,0 +1,24 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "js and css snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangnan0610/snippets.git"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "snippets"
+  ],
+  "author": "wangnan0610",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangnan0610/snippets/issues"
+  },
+  "homepage": "https://github.com/wangnan0610/snippets"
+}

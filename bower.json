@@ -1,0 +1,24 @@
+{
+  "name": "snippets",
+  "version": "0.0.0",
+  "authors": [
+    "wangnan0610 <375584419@qq.com>"
+  ],
+  "description": "js and css snippets",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "js",
+    "css",
+    "snippets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
