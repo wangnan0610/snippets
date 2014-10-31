@@ -22,9 +22,9 @@ gulp.task('test', function() {
 //编译sass
 gulp.task('sass', function() {
     // place code for your default task here
-    gulp.src('./snippets/starry_sky/starry_sky.scss')
+    gulp.src('./snippets/random_name/*.scss')
     	.pipe(sass())
-        .pipe(gulp.dest('./snippets/starry_sky'));
+        .pipe(gulp.dest('./snippets/random_name'));
 });
 
 gulp.task('default', function() {
@@ -33,5 +33,5 @@ gulp.task('default', function() {
 
 //监听sass
 gulp.task('watch', function() {
-    gulp.watch('./snippets/starry_sky/starry_sky.scss',['sass']);
+    gulp.watch('./snippets/random_name/*.scss',['sass']);
 });
