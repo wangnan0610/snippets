@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Card Filp</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<section class="container">
+	<div id="card">
+		<figure class="front">Front</figure>
+		<figure class="back">Back</figure>
+	</div>
+</section>
+<button id="flip">Flip</button>
+	
+<script type="text/javascript" src="../../common_scripts/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#flip').click(function(){
+			if ($('#card').hasClass('flipped')){
+				$('#card').removeClass('flipped');
+			}else {
+				$('#card').addClass('flipped');	
+			}
+		})
+	});
+</script>
+</body>
+</html>

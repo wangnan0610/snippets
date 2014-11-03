@@ -1,0 +1,49 @@
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    background-color: #FFF;
+    min-width: 500px;
+    min-height: 300px;
+    text-align: center;
+    color: #ffa600; }
+    html body .container {
+      width: 500px;
+      height: 300px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -250px;
+      margin-top: -150px; }
+      html body .container .wrapper {
+        width: 100%;
+        margin-top: 50px; }
+        html body .container .wrapper .bar {
+          height: 50px;
+          width: 400px;
+          background-color: #e3e3e3;
+          margin: 0 auto; }
+          html body .container .wrapper .bar .inner-bar {
+            width: 100%;
+            height: 100%; }
+        html body .container .wrapper .num {
+          font-size: 38px; }
+        html body .container .wrapper .dec {
+          font-size: 18px; }
+        html body .container .wrapper .plus, html body .container .wrapper .minus {
+          font-size: 38px;
+          padding: 10px;
+          background-color: #ffa600;
+          color: #e3e3e3;
+          width: 200px;
+          border: none;
+          border-radius: 15px; }
+          html body .container .wrapper .plus:hover, html body .container .wrapper .minus:hover {
+            cursor: pointer;
+            background-color: #ffca66; }
+        html body .container .wrapper .disabled {
+          background-color: #e3e3e3;
+          color: white; }
+          html body .container .wrapper .disabled:hover {
+            background-color: white;
+            color: #e3e3e3; }
