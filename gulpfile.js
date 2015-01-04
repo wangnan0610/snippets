@@ -22,9 +22,9 @@ gulp.task('test', function() {
 //编译sass
 gulp.task('sass', function() {
     // place code for your default task here
-    gulp.src('./snippets/counter_bar_jquery/*.scss')
+    gulp.src('./sass/*.scss')
     	.pipe(sass())
-        .pipe(gulp.dest('./snippets/counter_bar_jquery'));
+        .pipe(gulp.dest('./css'));
 });
 
 gulp.task('default', function() {
@@ -33,5 +33,5 @@ gulp.task('default', function() {
 
 //监听sass
 gulp.task('watch', function() {
-    gulp.watch('./snippets/counter_bar_jquery/*.scss',['sass']);
+    gulp.watch('./sass/*.scss',['sass']);
 });

@@ -1,0 +1,30 @@
+{
+  "name": "wangnan_first_plugin",
+  "title": "wangnan_first_plugin",
+  "description": "wangnan_first_plugin",
+  "keywords": ["jquery", "plugins"],
+  "version": "0.0.1",
+  "author": {
+    "name": "wangnan",
+    "url": "..."
+  },
+  "maintainers": [
+    {
+      "name": "wangnan",
+      "url": "..."
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": "...", // bugs url
+  "homepage": "...", // homepage url
+  "docs": "...", // docs url
+  "download": "...", // download url
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
